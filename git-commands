@@ -1,0 +1,17 @@
+1. Rename a branch:
+git branch -m <old-name> <new-name>
+
+or simply
+git branch -m <new-name>
+
+2. Delete a branch
+git branch -d <branch-name>
+
+(Not recommended) if you would like to force-delete
+git branch -D <branch-name>
+
+
+3. Collapsing multiple commits into one commit
+git rebase -i HEAD~<N>
+
+
