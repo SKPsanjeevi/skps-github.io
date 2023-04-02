@@ -14,4 +14,4 @@ git branch -D <branch-name>
 3. Collapsing multiple commits into one commit
 git rebase -i HEAD~<N>
 
-
+4. Benefits of integration?!?
