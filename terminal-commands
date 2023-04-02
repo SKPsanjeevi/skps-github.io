@@ -1,0 +1,26 @@
+** Size of files/folders in current folder:
+du -sh *
+
+** Given an input, sorting can be done using ``sort``. For example, ``du -sh *`` can be piped to
+``sort`` as
+du -sh * | sort -h
+Here, ``-h`` flag compares human readable numbers (e.g., 2K 1G) which are outputted from ``du -sh *``.
+
+** Count number of lines of a piped output using:
+wc -l
+
+** Say you want to see a simulation is complete by checking an output file or last lines of a file.
+Without actually opening the file, 
+tail -n <N>
+
+** less
+
+** Compress files/folder using tar
+tar -zcvf 
+tar -zxvf
+
+** ``find`` is a powerful tool and combine with `exec`
+
+** -exec is a powerful
+
+** pipe output a file or append output to a file using > and >>
