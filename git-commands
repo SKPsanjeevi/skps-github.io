@@ -17,8 +17,12 @@ git rebase -i HEAD~<N>
 
 4. Benefits of integration?!?
 
-- List all commits since beginning of the branch (assuming branched from `master`)
+- List all commits since beginning of the branch (assuming branched from `master` and make sure
+`master` is not outdated:
+
 git log master..myBranch
 
 The above command with compressed output:
 git log --oneline master..myBranch
+
+
